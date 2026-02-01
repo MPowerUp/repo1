@@ -1,6 +1,6 @@
 {
-  "id": "d05d6d87-44ce-4c5b-ab07-bd1c18b01d2f",
-  "name": "ALProject1",
+  "id": "3f9ce789-4c8e-4973-86d6-21248b6486f8",
+  "name": "MPU_ALDemo",
   "publisher": "MPowerUp",
   "version": "1.0.0.0",
   "brief": "",
@@ -13,19 +13,18 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 50100,
-      "to": 50500
+      "to": 50149
     }
-  ],
-  "features": [
-    "NoImplicitWith"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": ["NoImplicitWith"]
 }
